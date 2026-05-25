@@ -1,0 +1,23 @@
+[Icon Theme]
+Name=Ore UI
+Comment=Ore UI inspired icons
+Inherits=flat_white
+Directories=16x16,24x24,32x32,48x48,64x64,96x96
+
+[16x16]
+Size=16
+
+[24x24]
+Size=24
+
+[32x32]
+Size=32
+
+[48x48]
+Size=48
+
+[64x64]
+Size=64
+
+[96x96]
+Size=96

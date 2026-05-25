@@ -1,0 +1,9 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="button-default-hover-menu">
+<path id="vector" d="M26 0V26H0V24H2V2H0V0H26ZM4 24H24V2H4V24Z" fill="#0E0E0F"/>
+<path id="vector_2" d="M24 2V20H4V2H24ZM6 18H22V4H6V18Z" fill="white"/>
+<path id="vector_3" d="M4 20H24V24H4V20Z" fill="#646567"/>
+<path id="vector_4" d="M0 20H2V24H0V20Z" fill="#646567"/>
+<path id="vector_5" d="M0 2H2V20H0V2Z" fill="white"/>
+</g>
+</svg>

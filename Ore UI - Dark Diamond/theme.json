@@ -1,0 +1,30 @@
+{
+    "name": "Ore UI - Dark Diamond",
+    "qssFilePath": "themeStyle.css",
+    "widgets": "Fusion",
+    "colors": {
+        "WindowText": "#ffffff",
+        "Base": "#1C1D1D",
+        "AlternateBase": "#2A2B2C",
+        "Text": "#ffffff",
+        "ToolTipBase": "#39393B",
+        "ToolTipText": "#ffffff",
+        "Button": "#39393B",
+        "ButtonText": "#ffffff",
+        "BrightText": "#C93636",
+        "Highlight": "#1855D1",
+        "HighlightedText": "#ffffff",
+        "Link": "#2e6be5",
+        "fadeAmount": 0.5,
+        "fadeColor": "#47484A"
+    },
+    "logColors": {
+        "Message": "#E0E0E0",
+        "Launcher": "#B295FB",
+        "Debug": "#9CD78C",
+        "Warning": "#FDDC69",
+        "Error": "#EF7C7C",
+        "Fatal": "#D94B4B",
+        "FatalHighlight": "#0E0E0F"
+    }
+}

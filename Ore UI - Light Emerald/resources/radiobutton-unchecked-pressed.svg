@@ -1,0 +1,23 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="radiobutton-unchecked-pressed" clip-path="url(#clip0_137_94)">
+<g id="Clip path group">
+<mask id="mask0_137_94" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="28" height="28">
+<g id="clip0_93_327">
+<path id="Vector" d="M28 0H0V28H28V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_137_94)">
+<g id="radiobutton-unchecked-pressed_2">
+<path id="vector" d="M14 2.68628L25.3138 14L14 25.3137L2.68634 14L14 2.68628ZM14 22.4853L22.4853 14L14 5.51471L5.51477 14L14 22.4853Z" fill="#5CA847"/>
+<path id="vector_2" d="M5.51477 14.0001L14.0001 5.51477L22.4853 14.0001L14.0001 22.4853L5.51477 14.0001Z" fill="#4B9736"/>
+<path id="vector_3" d="M14 -0.14209L28.1422 14L14 28.1422L-0.14209 14L14 -0.14209ZM14 25.3138L25.3138 14L14 2.68634L2.68634 14L14 25.3138Z" fill="#0E0E0F"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_137_94">
+<rect width="28" height="28" fill="white"/>
+</clipPath>
+</defs>
+</svg>

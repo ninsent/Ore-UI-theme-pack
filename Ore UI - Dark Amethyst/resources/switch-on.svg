@@ -1,0 +1,16 @@
+<svg width="38" height="24" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="switch-on">
+<path id="vector" fill-rule="evenodd" clip-rule="evenodd" d="M38 24H0V4H18V0H38V24ZM2 22H18V6H2V22ZM20 22H36V2H20V22Z" fill="#0E0E0F"/>
+<path id="vector_2" d="M18 6V22H2V6H18ZM4 20H16V8H4V20Z" fill="#5C2DD5"/>
+<path id="vector_3" d="M36 2V18H20V2H36ZM22 16H34V4H22V16Z" fill="#737476"/>
+<rect id="vector_4" x="4" y="8" width="12" height="12" fill="#491AC0"/>
+<rect id="vector_5" x="22" y="4" width="12" height="12" fill="#646567"/>
+<rect id="vector_6" x="20" y="18" width="16" height="4" fill="#2A2B2C"/>
+<g id="vector_7">
+<path d="M12 18H8V16H12V18Z" fill="#EDEDEE"/>
+<path d="M8 16H6V12H8V16Z" fill="#EDEDEE"/>
+<path d="M14 16H12V12H14V16Z" fill="#EDEDEE"/>
+<path d="M12 12H8V10H12V12Z" fill="#EDEDEE"/>
+</g>
+</g>
+</svg>

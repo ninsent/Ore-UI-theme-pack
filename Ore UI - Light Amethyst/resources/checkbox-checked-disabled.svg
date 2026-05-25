@@ -1,0 +1,13 @@
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="checkbox-checked-disabled">
+<g id="Vector">
+<path d="M6 12H4V10H6V12Z" fill="#737476"/>
+<path d="M4 10H2V8H4V10Z" fill="#737476"/>
+<path d="M8 10H6V8H8V10Z" fill="#737476"/>
+<path d="M2 8H0V6H2V8Z" fill="#737476"/>
+<path d="M10 8H8V6H10V8Z" fill="#737476"/>
+<path d="M12 6H10V4H12V6Z" fill="#737476"/>
+<path d="M14 4H12V2H14V4Z" fill="#737476"/>
+</g>
+</g>
+</svg>
