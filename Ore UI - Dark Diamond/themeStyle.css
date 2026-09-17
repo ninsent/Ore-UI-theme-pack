@@ -4,6 +4,11 @@
  * SPDX-License-Identifier: MIT
  */
 
+* {
+    font-family: "Monocraft", monospace;
+    font-size: 12px;
+}
+
 InstanceWindow,
 QMenuBar,
 QScrollArea,
@@ -55,7 +60,7 @@ QToolButton {
     background-color: #39393B;
     border: 4px;
     border-bottom: 8px;
-    border-image: url(theme:button-default-default.svg)  4 4 8 4 repeat;
+    border-image: url(theme:button-default-default.png)  4 4 8 4 repeat;
     min-height: 20px;
     padding-left: 12px;
     padding-right: 12px;
@@ -65,14 +70,14 @@ QToolButton {
 QPushButton:hover,
 QToolButton:hover {
     background-color: #47484A;
-    border-image: url(theme:button-default-hover.svg)  4 4 8 4 repeat;
+    border-image: url(theme:button-default-hover.png)  4 4 8 4 repeat;
 }
 
 QPushButton:pressed,
 QToolButton:pressed {
     background-color: #2A2B2C;
     border-bottom: 4px;
-    border-image: url(theme:checkbox-disabled.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-disabled.png)  4 4 4 4 repeat;
     margin-top: 4px;
 }
 
@@ -80,7 +85,11 @@ QPushButton:disabled,
 QToolButton:disabled {
     color: #737476;
     background-color: #47484A;
-    border-image: url(theme:button-default-default.svg)  4 4 8 4 repeat;
+    border-image: url(theme:button-default-default.png)  4 4 8 4 repeat;
+}
+
+QToolButton[popupMode="1"] {
+    padding-right: 28px;
 }
 
 QToolButton::menu-button {
@@ -88,7 +97,7 @@ QToolButton::menu-button {
     border: 4px;
     border-right: 6px;
     border-bottom: 8px;
-    border-image: url(theme:button-default-default-menu.svg)  4 6 8 4 repeat;
+    border-image: url(theme:button-default-default-menu.png)  4 6 8 4 repeat;
     width: 16px;
     padding-left: 0px;
     padding-right: 0px;
@@ -97,18 +106,18 @@ QToolButton::menu-button {
 
 QToolButton::menu-button:hover {
     background-color: #47484A;
-    border-image: url(theme:button-default-hover-menu.svg)  4 6 8 4 repeat;
+    border-image: url(theme:button-default-hover-menu.png)  4 6 8 4 repeat;
 }
 
 QToolButton::menu-button:pressed {
     background-color: #2A2B2C;
     border-bottom: 4px;
-    border-image: url(theme:button-default-pressed-menu.svg)  4 6 4 4 repeat;
+    border-image: url(theme:button-default-pressed-menu.png)  4 6 4 4 repeat;
 }
 
 QToolButton::menu-button:disabled {
     background-color: #47484A;
-    border-image: url(theme:button-default-default-menu.svg)  4 6 8 4 repeat;
+    border-image: url(theme:button-default-default-menu.png)  4 6 8 4 repeat;
 }
 
 #openMissingButton,
@@ -128,7 +137,7 @@ QToolButton::menu-button:disabled {
 #userBtn,
 #fileBtn {
     background-color: #1855D1;
-    border-image: url(theme:button-accent-default.svg) 4 4 8 4 repeat;
+    border-image: url(theme:button-accent-default.png) 4 4 8 4 repeat;
 }
 
 #openMissingButton:hover,
@@ -148,7 +157,7 @@ QToolButton::menu-button:disabled {
 #userBtn:hover,
 #fileBtn:hover {
     background-color: #2E6BE6;
-    border-image: url(theme:button-accent-hover.svg) 4 4 8 4 repeat;
+    border-image: url(theme:button-accent-hover.png) 4 4 8 4 repeat;
 }
 
 #openMissingButton:pressed,
@@ -169,7 +178,7 @@ QToolButton::menu-button:disabled {
 #fileBtn:pressed {
     background-color: #043599;
     border-bottom: 4px;
-    border-image: url(theme:checkbox-checked-pressed.svg) 4 4 4 4 repeat;
+    border-image: url(theme:checkbox-checked-pressed.png) 4 4 4 4 repeat;
     margin-top: 4px;
 }
 
@@ -183,7 +192,7 @@ QToolButton::menu-button:disabled {
 #clear,
 #resetBtn {
     background-color: #B62323;
-    border-image: url(theme:button-warning-default.svg) 4 4 8 4 repeat;
+    border-image: url(theme:button-warning-default.png) 4 4 8 4 repeat;
 }
 
 #ProgressDialog QPushButton#skipButton:hover,
@@ -196,7 +205,7 @@ QToolButton::menu-button:disabled {
 #clear:hover,
 #resetBtn:hover {
     background-color: #C93636;
-    border-image: url(theme:button-warning-hover.svg) 4 4 8 4 repeat;
+    border-image: url(theme:button-warning-hover.png) 4 4 8 4 repeat;
 }
 
 #ProgressDialog QPushButton#skipButton:pressed,
@@ -210,7 +219,7 @@ QToolButton::menu-button:disabled {
 #resetBtn:pressed {
     background-color: #870B0B;
     border-bottom: 4px;
-    border-image: url(theme:button-warning-pressed.svg) 4 4 4 4 repeat;
+    border-image: url(theme:button-warning-pressed.png) 4 4 4 4 repeat;
     margin-top: 4px;
 }
 
@@ -241,7 +250,7 @@ QToolButton::menu-button:disabled {
 #resetBtn:disabled {
     color: #737476;
     background-color: #47484A;
-    border-image: url(theme:button-default-default.svg) 4 4 8 4 repeat;
+    border-image: url(theme:button-default-default.png) 4 4 8 4 repeat;
 }
 
 QComboBox {
@@ -249,7 +258,7 @@ QComboBox {
     color: #ffffff;
     background-color: #39393B;
     border: 4px;
-    border-image: url(theme:combobox-menulist-default.svg)  4 4 4 4 repeat;
+    border-image: url(theme:combobox-menulist-default.png)  4 4 4 4 repeat;
     min-height: 24px;
     min-width: 30px;
     padding-left: 8px;
@@ -258,13 +267,13 @@ QComboBox {
 
 QComboBox:hover {
     background-color: #47484A;
-    border-image: url(theme:checkbox-unchecked-default.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-unchecked-default.png)  4 4 4 4 repeat;
 }
 
 QComboBox:disabled {
     color: #737476;
     background-color: #47484A;
-    border-image: url(theme:checkbox-unchecked-default.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-unchecked-default.png)  4 4 4 4 repeat;
 }
 
 QComboBox::drop-down {
@@ -309,7 +318,7 @@ QPlainTextEdit {
     background-color: #2A2B2C;
     border: 4px;
     border-top: 6px;
-    border-image: url(theme:line-default.svg)  6 4 4 4 repeat;
+    border-image: url(theme:line-default.png)  6 4 4 4 repeat;
     min-width: 30px;
     min-height: 22px;
     padding-left: 4px;
@@ -327,7 +336,7 @@ QPlainTextEdit:hover,
 QSpinBox:hover,
 QDoubleSpinBox:hover,
 QLineEdit:hover {
-    border-image: url(theme:line-hover.svg)  6 4 4 4 repeat;
+    border-image: url(theme:line-hover.png)  6 4 4 4 repeat;
 }
 
 QTextEdit:disabled,
@@ -337,7 +346,7 @@ QDoubleSpinBox:disabled,
 QLineEdit:disabled {
     color: #959698;
     background-color: #39393B;
-    border-image: url(theme:line-hover.svg)  6 4 4 4 repeat;
+    border-image: url(theme:line-hover.png)  6 4 4 4 repeat;
 }
 
 QTextEdit:disabled,
@@ -364,7 +373,7 @@ QLineEdit:focus {
     margin: 0;
     border: 6px;
     border-top: 8px;
-    border-image: url(theme:line-focus.svg)  8 6 6 6 repeat;
+    border-image: url(theme:line-focus.png)  8 6 6 6 repeat;
 }
 
 QSpinBox::up-button,
@@ -447,7 +456,7 @@ QSlider::handle {
     background-color: #47484A;
     border: 4px;
     border-bottom: 6px;
-    border-image: url(theme:handle-default.svg)  4 4 6 4 repeat;
+    border-image: url(theme:handle-default.png)  4 4 6 4 repeat;
 }
 
 QSlider::handle:horizontal {
@@ -462,10 +471,11 @@ QSlider::handle:vertical {
 
 QSlider::handle:hover {
     background-color: #646567;
-    border-image: url(theme:handle-hover.svg)  4 4 6 4 repeat;
+    border-image: url(theme:handle-hover.png)  4 4 6 4 repeat;
 }
 
 PageContainer > QListView {
+    qproperty-spacing: 0;
     padding: 8px;
     margin-right: 6px;
     min-width: 160px;
@@ -477,18 +487,18 @@ PageContainer > QListView::item {
     background-color: #39393B;
     padding: 4px;
     border: 3px;
-    border-image: url(theme:combobox-menulist-default.svg)  4 4 4 4 repeat;
+    border-image: url(theme:combobox-menulist-default.png)  4 4 4 4 repeat;
 }
 
 PageContainer > QListView::item:hover {
     background-color: #47484A;
-    border-image: url(theme:checkbox-unchecked-default.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-unchecked-default.png)  4 4 4 4 repeat;
 }
 
 PageContainer > QListView::item:selected {
     color: #ffffff;
     background-color: #043599;
-    border-image: url(theme:checkbox-checked-pressed.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-checked-pressed.png)  4 4 4 4 repeat;
 }
 
 QTabWidget,
@@ -542,70 +552,70 @@ QCheckBox::indicator {
 
 QCheckBox::indicator:checked {
     background-color: #1855D1;
-    border-image: url(theme:checkbox-checked-default.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-checked-default.png)  4 4 4 4 repeat;
     image: url(theme:checkbox-checked.svg);
 }
 
 QCheckBox::indicator:checked:hover {
     background-color: #2E6BE6;
-    border-image: url(theme:checkbox-checked-hover.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-checked-hover.png)  4 4 4 4 repeat;
     image: url(theme:checkbox-checked.svg);
 }
 
 QCheckBox::indicator:checked:pressed {
     background-color: #043599;
-    border-image: url(theme:checkbox-checked-pressed.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-checked-pressed.png)  4 4 4 4 repeat;
     image: url(theme:checkbox-checked.svg);
 }
 
 QCheckBox::indicator:checked:disabled {
     background-color: #2A2B2C;
-    border-image: url(theme:checkbox-disabled.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-disabled.png)  4 4 4 4 repeat;
     image: url(theme:checkbox-checked.svg);
 }
 
 QCheckBox::indicator:indeterminate {
     background-color: #1855D1;
-    border-image: url(theme:checkbox-checked-default.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-checked-default.png)  4 4 4 4 repeat;
     image: url(theme:checkbox-indeterminate.svg);
 }
 
 QCheckBox::indicator:indeterminate:hover {
     background-color: #2E6BE6;
-    border-image: url(theme:checkbox-checked-hover.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-checked-hover.png)  4 4 4 4 repeat;
     image: url(theme:checkbox-indeterminate.svg);
 }
 
 QCheckBox::indicator:indeterminate:pressed {
     background-color: #043599;
-    border-image: url(theme:checkbox-checked-pressed.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-checked-pressed.png)  4 4 4 4 repeat;
     image: url(theme:checkbox-indeterminate.svg);
 }
 
 QCheckBox::indicator:indeterminate:disabled {
     background-color: #2A2B2C;
-    border-image: url(theme:checkbox-disabled.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-disabled.png)  4 4 4 4 repeat;
     image: url(theme:checkbox-indeterminate.svg);
 }
 
 QCheckBox::indicator:unchecked {
     background-color: #2A2B2C;
-    border-image: url(theme:checkbox-unchecked-default.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-unchecked-default.png)  4 4 4 4 repeat;
 }
 
 QCheckBox::indicator:unchecked:hover {
     background-color: #39393B;
-    border-image: url(theme:checkbox-unchecked-hover.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-unchecked-hover.png)  4 4 4 4 repeat;
 }
 
 QCheckBox::indicator:unchecked:pressed {
     background-color: #1855D1;
-    border-image: url(theme:checkbox-checked-default.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-checked-default.png)  4 4 4 4 repeat;
 }
 
 QCheckBox::indicator:unchecked:disabled {
     background-color: #2A2B2C;
-    border-image: url(theme:checkbox-disabled.svg)  4 4 4 4 repeat;
+    border-image: url(theme:checkbox-disabled.png)  4 4 4 4 repeat;
 }
 
 QRadioButton {
