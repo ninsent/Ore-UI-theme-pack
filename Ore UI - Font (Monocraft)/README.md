@@ -55,7 +55,6 @@ The themes reference the family name `Monocraft`, which resolves to the Regular 
 * {
     font-family: "Monocraft", monospace;
     font-weight: 300; /* Light */
-    font-size: 12px;
 }
 ```
 
